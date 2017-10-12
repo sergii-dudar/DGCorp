@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DGCorp.DataAccess.Core\DGCorp.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\DGCorp.DataAccess.Interfaces\DGCorp.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+</Project>
