@@ -16,6 +16,7 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DGCorp.BussinessLogic.Core\DGCorp.BussinessLogic.Core.csproj" />
     <ProjectReference Include="..\DGCorp.BussinessLogic.Interfaces\DGCorp.BussinessLogic.Interfaces.csproj" />
     <ProjectReference Include="..\DGCorp.Common\DGCorp.Common.csproj" />
     <ProjectReference Include="..\DGCorp.Web.Core\DGCorp.Web.Core.csproj" />
