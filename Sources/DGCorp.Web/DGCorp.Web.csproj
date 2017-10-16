@@ -24,6 +24,7 @@
     <ProjectReference Include="..\DGCorp.Web.WebSockets\DGCorp.Web.WebSockets.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ClientApp" />
     <Folder Include="wwwroot" />
   </ItemGroup>
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
