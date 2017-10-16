@@ -1,5 +1,5 @@
 {
-  "name": "DGCorp_Web",
+  "name": "Angular",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -58,6 +58,7 @@
     "karma-chrome-launcher": "2.2.0",
     "karma-cli": "1.0.1",
     "karma-jasmine": "1.1.0",
-    "karma-webpack": "2.0.3"
+    "karma-webpack": "2.0.3",
+    "webpack": "https://registry.npmjs.org/webpack/-/webpack-2.5.1.tgz"
   }
 }
