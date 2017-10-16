@@ -1,0 +1,5 @@
+1. Install last nodejs version https://nodejs.org/)
+2. Install “Yarn” (https://yarnpkg.com/) (basically NPM with some additional functionality)
+3. Make yarn install or npm install
+4. to work asp.net core under iis install DotNetCore.2.0.0-WindowsHosting.exe and reset PC
+5. Enjoy=)
