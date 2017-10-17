@@ -769,7 +769,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var CoreConfiguration = (function () {
     function CoreConfiguration() {
-        this.Server = 'http://localhost:5000/api';
+        this.Server = 'http://localhost:93/api';
     }
     CoreConfiguration.prototype.getActionUri = function (controller, action) {
         return action ? this.Server + "/" + controller + "/" + action : this.Server + "/" + controller;
