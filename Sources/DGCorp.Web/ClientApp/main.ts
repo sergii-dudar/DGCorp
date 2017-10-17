@@ -1,4 +1,4 @@
-﻿import './styles.scss';
+﻿import './styles.less';
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

@@ -1,4 +1,4 @@
-﻿import './styles.scss';
+﻿import './styles.less';
 
 import { enableProdMode } from '@angular/core';
 import { platformBrowser } from '@angular/platform-browser';

@@ -72,20 +72,24 @@ module.exports = {
                 ]
             },
             {
-                test: /\.scss$/,
+                //test: /\.scss$/,
+                test: /\.less$/,
                 include: path.join(ROOT, 'ClientApp/styles'),
                 use: [
                     'style-loader',
                     'css-loader',
-                    'sass-loader'
+                    //'sass-loader',
+                    'less-loader'
                 ]
             },
             {
-                test: /\.scss$/,
+                //test: /\.scss$/,
+                test: /\.less$/,
                 exclude: path.join(ROOT, 'ClientApp/styles'),
                 use: [
                     'raw-loader',
-                    'sass-loader'
+                    //'sass-loader',
+                    'less-loader'
                 ]
             },
             {

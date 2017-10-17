@@ -1746,7 +1746,7 @@ var Configuration = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThingService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(9);
@@ -4001,7 +4001,7 @@ HttpClientJsonpModule.ctorParameters = function () { return []; };
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_services_thing_data_service__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_thing__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_thing__ = __webpack_require__(473);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4054,7 +4054,7 @@ var HomeComponent = (function () {
     HomeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
             selector: 'app-home-component',
-            template: __webpack_require__(475)
+            template: __webpack_require__(474)
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__core_services_thing_data_service__["a" /* ThingService */]])
     ], HomeComponent);
@@ -8314,8 +8314,8 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* Version *
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_scss__ = __webpack_require__(436);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__styles_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_less__ = __webpack_require__(436);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__styles_less__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(438);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(450);
 
@@ -8349,8 +8349,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./styles.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./styles.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/less-loader/dist/cjs.js!./styles.less", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/less-loader/dist/cjs.js!./styles.less");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -8369,7 +8369,7 @@ exports = module.exports = __webpack_require__(123)(undefined);
 
 
 // module
-exports.push([module.i, "a {\n  color: #03A9F4; }\n", ""]);
+exports.push([module.i, "body {\n  padding-top: 70px;\n}\n.starter-template {\n  padding: 40px 15px;\n  text-align: center;\n}\n.navigationLinkButton:hover {\n  cursor: pointer;\n}\na {\n  color: #03A9F4;\n}\n", ""]);
 
 // exports
 
@@ -37075,10 +37075,10 @@ exports.SubjectSubscription = SubjectSubscription;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(451);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routes__ = __webpack_require__(454);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_core_module__ = __webpack_require__(468);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_home_module__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_shared_module__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routes__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_core_module__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_home_module__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_shared_module__ = __webpack_require__(476);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -37137,7 +37137,6 @@ var AppComponent = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
             selector: 'app-component',
             template: __webpack_require__(452),
-            styles: [__webpack_require__(453)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ViewEncapsulation */].None
         })
     ], AppComponent);
@@ -37151,18 +37150,11 @@ var AppComponent = (function () {
 /***/ 452:
 /***/ (function(module, exports) {
 
-module.exports = "<app-navigation></app-navigation>\n\n<div class=\"container\">\n\n    <router-outlet></router-outlet>\n\n    <app-custom-footer></app-custom-footer>\n</div>"
+module.exports = "<app-navigation></app-navigation>\r\n\r\n<div class=\"container\">\r\n\r\n    <router-outlet></router-outlet>\r\n\r\n    <app-custom-footer></app-custom-footer>\r\n</div>"
 
 /***/ }),
 
 /***/ 453:
-/***/ (function(module, exports) {
-
-module.exports = "body {\n  padding-top: 70px; }\n\n.starter-template {\n  padding: 40px 15px;\n  text-align: center; }\n\n.navigationLinkButton:hover {\n  cursor: pointer; }\n\na {\n  color: #03A9F4; }\n"
-
-/***/ }),
-
-/***/ 454:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37173,7 +37165,7 @@ module.exports = "body {\n  padding-top: 70px; }\n\n.starter-template {\n  paddi
 var routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     {
-        path: 'about', loadChildren: function () { return new Promise(function (resolve) { __webpack_require__.e/* require.ensure */(0).then((function (require) { resolve(__webpack_require__(482)['AboutModule']); }).bind(null, __webpack_require__)).catch(__webpack_require__.oe); }); },
+        path: 'about', loadChildren: function () { return new Promise(function (resolve) { __webpack_require__.e/* require.ensure */(0).then((function (require) { resolve(__webpack_require__(481)['AboutModule']); }).bind(null, __webpack_require__)).catch(__webpack_require__.oe); }); },
     }
 ];
 var AppRoutes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes);
@@ -37181,7 +37173,7 @@ var AppRoutes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModul
 
 /***/ }),
 
-/***/ 455:
+/***/ 454:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37237,18 +37229,18 @@ exports.BehaviorSubject = BehaviorSubject;
 
 /***/ }),
 
-/***/ 456:
+/***/ 455:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromObservable_1 = __webpack_require__(457);
+var FromObservable_1 = __webpack_require__(456);
 exports.from = FromObservable_1.FromObservable.create;
 //# sourceMappingURL=from.js.map
 
 /***/ }),
 
-/***/ 457:
+/***/ 456:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37262,12 +37254,12 @@ var isArray_1 = __webpack_require__(125);
 var isArrayLike_1 = __webpack_require__(204);
 var isPromise_1 = __webpack_require__(205);
 var PromiseObservable_1 = __webpack_require__(208);
-var IteratorObservable_1 = __webpack_require__(458);
+var IteratorObservable_1 = __webpack_require__(457);
 var ArrayObservable_1 = __webpack_require__(128);
-var ArrayLikeObservable_1 = __webpack_require__(459);
+var ArrayLikeObservable_1 = __webpack_require__(458);
 var iterator_1 = __webpack_require__(131);
 var Observable_1 = __webpack_require__(12);
-var observeOn_1 = __webpack_require__(460);
+var observeOn_1 = __webpack_require__(459);
 var observable_1 = __webpack_require__(127);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -37377,7 +37369,7 @@ exports.FromObservable = FromObservable;
 
 /***/ }),
 
-/***/ 458:
+/***/ 457:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37547,7 +37539,7 @@ function sign(value) {
 
 /***/ }),
 
-/***/ 459:
+/***/ 458:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37624,7 +37616,7 @@ exports.ArrayLikeObservable = ArrayLikeObservable;
 
 /***/ }),
 
-/***/ 460:
+/***/ 459:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37635,7 +37627,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(20);
-var Notification_1 = __webpack_require__(461);
+var Notification_1 = __webpack_require__(460);
 /**
  *
  * Re-emits all notifications from source Observable with specified scheduler.
@@ -37744,7 +37736,7 @@ exports.ObserveOnMessage = ObserveOnMessage;
 
 /***/ }),
 
-/***/ 461:
+/***/ 460:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37878,7 +37870,7 @@ exports.Notification = Notification;
 
 /***/ }),
 
-/***/ 462:
+/***/ 461:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37959,7 +37951,7 @@ var EverySubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 463:
+/***/ 462:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38118,7 +38110,7 @@ var FirstSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 464:
+/***/ 463:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38244,7 +38236,7 @@ var LastSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 465:
+/***/ 464:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38377,7 +38369,7 @@ exports.ReduceSubscriber = ReduceSubscriber;
 
 /***/ }),
 
-/***/ 466:
+/***/ 465:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38500,7 +38492,7 @@ var CatchSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 467:
+/***/ 466:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38563,7 +38555,7 @@ exports.concatAll = concatAll;
 
 /***/ }),
 
-/***/ 468:
+/***/ 467:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38610,7 +38602,7 @@ var CoreModule = (function () {
 
 /***/ }),
 
-/***/ 469:
+/***/ 468:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38622,7 +38614,7 @@ Observable_1.Observable.prototype.map = map_1.map;
 
 /***/ }),
 
-/***/ 470:
+/***/ 469:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38630,9 +38622,9 @@ Observable_1.Observable.prototype.map = map_1.map;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(470);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_home_component__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_routes__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_routes__ = __webpack_require__(475);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38671,7 +38663,7 @@ var HomeModule = (function () {
 
 /***/ }),
 
-/***/ 471:
+/***/ 470:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38748,7 +38740,7 @@ var HomeModule = (function () {
 /* unused harmony export ɵr */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__ = __webpack_require__(471);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__);
@@ -44858,18 +44850,18 @@ ReactiveFormsModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 472:
+/***/ 471:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ForkJoinObservable_1 = __webpack_require__(473);
+var ForkJoinObservable_1 = __webpack_require__(472);
 exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
 
-/***/ 473:
+/***/ 472:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44988,7 +44980,7 @@ var ForkJoinSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 474:
+/***/ 473:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45003,14 +44995,14 @@ var Thing = (function () {
 
 /***/ }),
 
-/***/ 475:
+/***/ 474:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n\n    <h1>{{message}}</h1>\n\n    <div class=\"row\">\n        <form class=\"form-inline\" (ngSubmit)=\"addThing()\" #thingForm=\"ngForm\">\n            <div class=\"form-group\">\n                <label class=\"sr-only\" for=\"exampleInputThing\">Thing</label>\n                <input type=\"text\" class=\"form-control\" id=\"exampleInputThing\" placeholder=\"Name of the thing ...\" name=\"thing\" [(ngModel)]=\"thing.name\"\n                    required>\n            </div>\n            <button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!thingForm.valid\">Create new Thing</button>\n        </form>\n    </div>\n\n    <div class=\"row\" *ngIf=\"things.length > 0\">\n        <div class=\"table-responsive\">\n            <table class=\"table table-striped\">\n                <thead>\n                    <tr>\n                        <th>#</th>\n                        <th>Name</th>\n                        <th class=\"text-right\"></th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr *ngFor=\"let thing of things; let i = index\">\n                        <td>{{i + 1}}</td>\n                        <td>{{thing.name}}</td>\n                        <td class=\"text-right\">\n                            <button type=\"button\" class=\"btn btn-xs btn-danger\" (click)=\"deleteThing(thing)\">Delete</button>\n                        </td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n\n    <div class=\"row\" *ngIf=\"things.length <= 0\">\n        <span>No items found</span>\n    </div>\n\n</div>"
+module.exports = "<div class=\"container-fluid\">\r\n\r\n    <h1>{{message}}</h1>\r\n\r\n    <div class=\"row\">\r\n        <form class=\"form-inline\" (ngSubmit)=\"addThing()\" #thingForm=\"ngForm\">\r\n            <div class=\"form-group\">\r\n                <label class=\"sr-only\" for=\"exampleInputThing\">Thing</label>\r\n                <input type=\"text\" class=\"form-control\" id=\"exampleInputThing\" placeholder=\"Name of the thing ...\" name=\"thing\" [(ngModel)]=\"thing.name\"\r\n                    required>\r\n            </div>\r\n            <button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!thingForm.valid\">Create new Thing</button>\r\n        </form>\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"things.length > 0\">\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-striped\">\r\n                <thead>\r\n                    <tr>\r\n                        <th>#</th>\r\n                        <th>Name</th>\r\n                        <th class=\"text-right\"></th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr *ngFor=\"let thing of things; let i = index\">\r\n                        <td>{{i + 1}}</td>\r\n                        <td>{{thing.name}}</td>\r\n                        <td class=\"text-right\">\r\n                            <button type=\"button\" class=\"btn btn-xs btn-danger\" (click)=\"deleteThing(thing)\">Delete</button>\r\n                        </td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"things.length <= 0\">\r\n        <span>No items found</span>\r\n    </div>\r\n\r\n</div>"
 
 /***/ }),
 
-/***/ 476:
+/***/ 475:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45027,7 +45019,7 @@ var HomeRoutes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModu
 
 /***/ }),
 
-/***/ 477:
+/***/ 476:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45035,8 +45027,8 @@ var HomeRoutes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModu
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_customfooter_customfooter_component__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_navigation_navigation_component__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_customfooter_customfooter_component__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_navigation_navigation_component__ = __webpack_require__(479);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45074,7 +45066,7 @@ var SharedModule = (function () {
 
 /***/ }),
 
-/***/ 478:
+/***/ 477:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45094,7 +45086,7 @@ var CustomFooterComponent = (function () {
     CustomFooterComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
             selector: 'app-custom-footer',
-            template: __webpack_require__(479)
+            template: __webpack_require__(478)
         })
     ], CustomFooterComponent);
     return CustomFooterComponent;
@@ -45104,14 +45096,14 @@ var CustomFooterComponent = (function () {
 
 /***/ }),
 
-/***/ 479:
+/***/ 478:
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer\">\n    <p>\n        <a href=\"https://twitter.com/FabianGosebrink\">Fabian Gosebrink</a>&nbsp;Blog: <a href=\"http://offering.solutions\">Offering.Solutions</a>        &amp;\n        <a href=\"https://twitter.com/damien_bod\">Damien Bowden</a>&nbsp;Blog: <a href=\"https://damienbod.com/\">Software Engineering</a>        &amp;\n        <a href=\"https://twitter.com/robisim74\">Roberto Simonetti</a> &copy; {{currentYear}}\n    </p>\n</footer>"
+module.exports = "<footer class=\"footer\">\r\n    <p>\r\n        <a href=\"https://twitter.com/FabianGosebrink\">Fabian Gosebrink</a>&nbsp;Blog: <a href=\"http://offering.solutions\">Offering.Solutions</a>        &amp;\r\n        <a href=\"https://twitter.com/damien_bod\">Damien Bowden</a>&nbsp;Blog: <a href=\"https://damienbod.com/\">Software Engineering</a>        &amp;\r\n        <a href=\"https://twitter.com/robisim74\">Roberto Simonetti</a> &copy; {{currentYear}}\r\n    </p>\r\n</footer>"
 
 /***/ }),
 
-/***/ 480:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45130,7 +45122,7 @@ var NavigationComponent = (function () {
     NavigationComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
             selector: 'app-navigation',
-            template: __webpack_require__(481)
+            template: __webpack_require__(480)
         })
     ], NavigationComponent);
     return NavigationComponent;
@@ -45140,10 +45132,10 @@ var NavigationComponent = (function () {
 
 /***/ }),
 
-/***/ 481:
+/***/ 480:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n    <div class=\"container\">\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\"\n                    aria-controls=\"navbar\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" [routerLink]=\"['/home']\"><em>ASP.NET Core Angular Webpack</em></a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n            <ul class=\"nav navbar-nav\">\n                <li><a [routerLink]=\"['/home']\">Home</a></li>\n                <li><a [routerLink]=\"['/about']\">About</a></li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a href=\"https://twitter.com/damien_bod\"><img src=\"assets/damienbod.jpg\" height=\"30\" /></a>\n                </li>\n                <li>\n                    <a href=\"https://twitter.com/FabianGosebrink\"><img src=\"assets/fabianGosebrink.jpg\" height=\"30\" /></a>\n                </li>\n                <li>\n                    <a href=\"https://twitter.com/robisim74\"><img src=\"assets/RobertoSimonetti.jpg\" height=\"30\" /></a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-inverse navbar-fixed-top\">\r\n    <div class=\"container\">\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\"\r\n                    aria-controls=\"navbar\">\r\n                <span class=\"sr-only\">Toggle navigation</span>\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n            </button>\r\n            <a class=\"navbar-brand\" [routerLink]=\"['/home']\"><em>ASP.NET Core Angular Webpack</em></a>\r\n        </div>\r\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\r\n            <ul class=\"nav navbar-nav\">\r\n                <li><a [routerLink]=\"['/home']\">Home</a></li>\r\n                <li><a [routerLink]=\"['/about']\">About</a></li>\r\n            </ul>\r\n            <ul class=\"nav navbar-nav navbar-right\">\r\n                <li>\r\n                    <a href=\"https://twitter.com/damien_bod\"><img src=\"assets/damienbod.jpg\" height=\"30\" /></a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://twitter.com/FabianGosebrink\"><img src=\"assets/fabianGosebrink.jpg\" height=\"30\" /></a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://twitter.com/robisim74\"><img src=\"assets/RobertoSimonetti.jpg\" height=\"30\" /></a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>"
 
 /***/ }),
 
@@ -50313,33 +50305,33 @@ var MapSubscriber = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(454);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__ = __webpack_require__(455);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_observable_from__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_concatMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__ = __webpack_require__(461);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_every__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__ = __webpack_require__(462);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_operator_first__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_operator_last__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__ = __webpack_require__(464);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_rxjs_operator_reduce__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__ = __webpack_require__(465);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rxjs_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__ = __webpack_require__(466);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_rxjs_operator_concatAll__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_rxjs_util_EmptyError__);
