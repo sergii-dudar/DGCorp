@@ -1,13 +1,13 @@
 {
-  "name": "angular-webpack-visualstudio",
-  "version": "2.0.5",
-  "description": "An Angular VS template",
+  "name": "dg_corp",
+  "version": "1.0.0",
+  "description": "spa game portal",
   "main": "wwwroot/index.html",
-  "author": "",
+  "author": "serhii.dudar, igor.gerega, taras.shevchenko",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/damienbod/Angular2WebpackVisualStudio.git"
+    "url": "https://github.com/shtanganet/DGCorp.git"
   },
   "scripts": {
     "start": "concurrently \"webpack-dev-server --env=dev --hot --inline --port 8080\" \"dotnet run\" ",
