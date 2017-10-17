@@ -3,12 +3,12 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 
 import { Configuration } from '../../app/app.constants';
-import { ThingService } from '../../app/core/services/thing-data.service';
-import { HomeComponent } from '../../app/home/components/home.component';
+//import { ThingService } from '../../app/core/services/thing-data.service';
+//import { HomeComponent } from '../../app/home/components/home.component';
 
 describe('HomeComponent', () => {
 
-    let fixture: ComponentFixture<HomeComponent>;
+    /*let fixture: ComponentFixture<HomeComponent>;
     let comp: HomeComponent;
 
     beforeEach(async () => {
@@ -44,5 +44,5 @@ describe('HomeComponent', () => {
         fixture.whenStable().then(() => {
             expect(comp.things).toEqual(expectedResponse);
         });
-    })
+    })*/
 });
