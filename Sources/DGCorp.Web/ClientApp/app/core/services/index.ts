@@ -1,1 +1,1 @@
-export { ApiService } from './http/index'
+export { ApiService } from './http/index';

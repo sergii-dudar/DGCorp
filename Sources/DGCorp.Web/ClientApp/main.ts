@@ -1,8 +1,8 @@
 ﻿import './styles.less';
 
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app';
+import {AppModule} from './app';
 
 // Entry point for JiT compilation.
 declare var System: any;
