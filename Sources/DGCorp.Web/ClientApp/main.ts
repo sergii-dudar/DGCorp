@@ -2,7 +2,7 @@
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app/app.module';
+import { AppModule } from './app';
 
 // Entry point for JiT compilation.
 declare var System: any;
