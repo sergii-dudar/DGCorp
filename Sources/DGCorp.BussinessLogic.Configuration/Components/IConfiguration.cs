@@ -4,8 +4,7 @@ using System.Text;
 
 namespace DGCorp.BussinessLogic.Configuration.Components
 {
-    interface IConfigurationModuleIniter
+    interface IConfiguration
     {
-        void InitModuleConfiguration();
     }
 }

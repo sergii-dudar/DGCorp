@@ -1,0 +1,15 @@
+﻿{
+    "Configuration": {
+        "Application": {
+            "WebApp": {
+                "Port": 5000
+            },
+            "Rtms": {
+                "Host": 'ws://localhost',
+                "Port": 1000
+            }
+        },
+        "Games": {
+        }
+    }
+}

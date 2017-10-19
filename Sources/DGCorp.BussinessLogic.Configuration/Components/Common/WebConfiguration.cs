@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace DGCorp.BussinessLogic.Configuration.Components.Common
 {
@@ -9,11 +10,11 @@ namespace DGCorp.BussinessLogic.Configuration.Components.Common
         int Port { get; }
     }
 
-    public class WebConfiguration : IWebConfiguration, IConfigurationModuleIniter
+    public class WebConfiguration : IWebConfiguration
     {
         public WebConfiguration()
         {
-
+            //JsonConvert.DeserializeObject<>()
         }
 
         public int Port { get; private set; }
