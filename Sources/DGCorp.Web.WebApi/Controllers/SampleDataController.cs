@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using DGCorp.Web.Core.Bootstrapping;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DGCorp.Web.WebApi.Controllers
@@ -8,6 +9,12 @@ namespace DGCorp.Web.WebApi.Controllers
     [Route("api/[controller]")]
     public class SampleDataController : Controller
     {
+        private readonly IExecutor _executor;
+        public SampleDataController(IExecutor executor)
+        {
+            _executor = executor;
+        }
+        
         private static string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

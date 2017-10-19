@@ -769,7 +769,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var CoreConfiguration = (function () {
     function CoreConfiguration() {
-        this.Server = 'http://localhost:93/api';
+        this.Server = 'http://localhost:5000/api';
     }
     CoreConfiguration.prototype.getActionUri = function (controller, action) {
         return action ? this.Server + "/" + controller + "/" + action : this.Server + "/" + controller;
@@ -49744,7 +49744,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var Configuration = (function () {
     function Configuration() {
-        this.Server = 'http://localhost:5000/';
     }
     Configuration = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])()
