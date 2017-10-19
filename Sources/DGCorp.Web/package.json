@@ -40,12 +40,14 @@
     "core-js": "2.5.1",
     "ie-shim": "0.1.0",
     "rxjs": "5.4.3",
-    "zone.js": "0.8.16"
+    "zone.js": "0.8.16",
+    "sockjs-client": "^1.1.4"
   },
   "devDependencies": {
     "@ngtools/webpack": "^1.7.1",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.28",
+    "@types/sockjs-client": "^1.0.32",
     "angular-router-loader": "^0.6.0",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.2.2",

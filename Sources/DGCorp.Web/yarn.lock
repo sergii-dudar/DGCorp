@@ -105,6 +105,10 @@
   version "8.0.40"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.40.tgz#260f0440db0643f034c9103bba0be777ce25317c"
 
+"@types/sockjs-client@^1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@types/sockjs-client/-/sockjs-client-1.0.32.tgz#de67689a4b653d65a25f32fdb7e20ff13eb14689"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -4437,7 +4441,7 @@ socket.io@1.7.3:
     socket.io-client "1.7.3"
     socket.io-parser "2.3.1"
 
-sockjs-client@1.1.4:
+sockjs-client@1.1.4, sockjs-client@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/sockjs-client/-/sockjs-client-1.1.4.tgz#5babe386b775e4cf14e7520911452654016c8b12"
   dependencies:
